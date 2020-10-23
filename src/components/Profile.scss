@@ -1,0 +1,56 @@
+@import '../global.scss';
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:60px;
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.awards{
+    display: flex;
+    align-items: center;
+}
+
+.award {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-name {
+    color:#fff;
+    font-size: 64px;
+}
+
+.award-icon {
+    height: 100px;
+    width: 100px;
+}
+
+.award-name {
+    color:#fff;
+}
+
+.margin {
+    margin-top: 24px;
+}
+
+.appreciate {
+    width: 100%;
+}
+
+.nav-link {
+    color:#fff;
+}
+
+.grabpreciate-btn {
+    background-color: #fff;
+    color: $primary;
+}
